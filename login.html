@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body 
+			{
+			background: url(login.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			}
+			
+			div 
+			{
+			border-radius: 25px;
+			margin: 200px auto ;
+			padding:30px;
+			color: white;
+		    text-align: center;
+			background-color: rgba(180,180,180,0.45);
+			width: 375px;  
+			}
+			
+			.xlarge
+			{
+			font-size: 40px;
+			color: black;
+			}
+			
+			.large
+			{
+			color:black;
+			}
+			
+		</style>
+		
+		<title>PropertyManagementSystem</title>
+	</head>
+	
+	<body>	
+		<div>
+
+		<h1 class=xlarge ><i>Welcome to Property Management System</i></h1>		
+		
+		<form action="login.php" method="post">
+			   <b class=large>Name:</b><br>
+				<input type="text" name="name" ><br>
+			  <b class=large>Phone Number:</b><br>
+				<input type="text" name="num" ><br>
+			 
+					<input  type="submit" name="sub" value="submit">
+					<input type="submit" name="su" value="signup">
+		</form>
+
+		</div>
+	</body>
+</html>

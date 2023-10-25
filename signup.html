@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body 
+			{
+			background: url(signup.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			}
+			
+			div 
+			{
+			border-radius: 25px;
+			margin: 200px auto ;
+			padding:30px;
+			color: white;
+		    text-align: center;
+			background-color: rgba(180,180,180,0.75);
+			width: 375px;  
+			}
+			
+			.xlarge
+			{
+			font-size: 40px;
+			color: black;
+			}
+			
+			.large
+			{
+			color: black;
+			}
+		</style>
+		
+		<title>CustomerSignup</title>
+	</head>
+	
+	<body>	
+        <div>
+		<h1 class=xlarge ><i>Customer SignUp</i></h1>		
+			
+			<form action="signup.php" method="post">
+				<b class=large>Enter your Name:</b><br>
+					<input type="text" name="name" ><br>
+				<b class=large>Enter your Address:</b><br>
+					<input type="text" name="address" ><br>
+				<b class=large>Enter your Phone Number:</b><br>
+					<input type="text" name="num" ><br>
+				<b class=large>Would u like to buy or sell property:</b><br>
+					<input type="radio" name="type" value="seller"> Sell existing property<br>
+					<input type="radio" name="type" value="buyer" checked> Purchase property<br>
+	
+				<input type="submit" name="sub" value="submit">
+			</form>
+		
+		</div>
+	</body>
+</html>
